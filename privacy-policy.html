@@ -9,9 +9,12 @@
     <meta property="og:title" content="Last Stand: Outbreak – Privacy Policy" />
     <meta property="og:description" content="No account, no ads, no tracking. Your progress stays on your device and in your own iCloud." />
     <meta property="og:image" content="https://vybgss.github.io/last-stand-docs/assets/og.jpg" />
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="assets/style.css?v=2" />
   </head>
   <body>
     <header class="site-header">
@@ -34,7 +37,7 @@
         <h1>Your data<span class="hot">stays with you</span></h1>
         <div class="stripe"></div>
         <p class="lead">Last Stand: Outbreak doesn't collect, store or share any personal information. This policy explains what the game keeps on your device, what Apple handles for us, and the choices you have.</p>
-        <p class="updated">Last updated: October 24, 2026</p>
+        <p class="updated">Last updated: November 7, 2026</p>
       </section>
 
       <section class="glance" aria-label="At a glance">
@@ -51,7 +54,7 @@
         <p>Last Stand: Outbreak (the “App”) is an iOS and iPadOS game developed and published by Volodymyr Sichka, an independent developer (“we”, “us” or “our”). This Privacy Policy applies to the App and to this website. By using the App, you agree to the practices described here.</p>
 
         <h2><span class="num">02</span>Information we collect</h2>
-        <p><strong>We don't collect any personal information.</strong> The App doesn't ask for your name, email address, phone number, contacts, location, photos, camera, microphone or any other personal data. It doesn't have user accounts, and it doesn't send your data to us or to anyone else. We run no servers for the App, so there is nothing about you stored on our side.</p>
+        <p><strong>We don't collect any personal information.</strong> The App doesn't ask for your name, email address, phone number, contacts, location, camera, microphone or any other personal data, and it can't see your photos. It doesn't have user accounts, and it doesn't send your data to us or to anyone else. We run no servers for the App, so there is nothing about you stored on our side.</p>
 
         <h2><span class="num">03</span>Data stored on your device and in your iCloud</h2>
         <p>So that you can keep playing where you left off, the App saves game data on your device using Apple's standard app storage. If you're signed in to iCloud, the same game data also syncs between your devices through iCloud key-value storage under your own Apple Account.</p>
@@ -61,47 +64,60 @@
               <tr><th>Data</th><th>What it includes</th><th>Where it's kept</th></tr>
             </thead>
             <tbody>
-              <tr><td>Game progress</td><td>Highest cleared level, stars, selected level and weapon, best score, kills and survival time</td><td>Device and your iCloud</td></tr>
+              <tr><td>Game progress</td><td>Highest cleared level, stars, selected level and weapon, best score, kills, survival time, survivors rescued and the date you first played</td><td>Device and your iCloud</td></tr>
               <tr><td>Inventory</td><td>Scrap and gem balances, weapon upgrade levels, permanent upgrades, an unopened shop pick, whether you bought the Starter Pack</td><td>Device and your iCloud</td></tr>
               <tr><td>Unfinished run</td><td>A snapshot of a run in progress so it can resume after you close the App</td><td>Device and your iCloud</td></tr>
               <tr><td>Daily supply drop</td><td>Your current streak and the date you last claimed a reward</td><td>Device and your iCloud</td></tr>
               <tr><td>Story progress</td><td>Which radio briefings you've already heard</td><td>Device and your iCloud</td></tr>
-              <tr><td>Settings</td><td>Music, sound effects, haptics, enemy health bars, 3D quality and radio briefings switches</td><td>Device only</td></tr>
+              <tr><td>Settings</td><td>Music, sound effects, haptics, enemy health bars, 3D quality, radio briefings and Radio Alerts switches, your language, and whether the App has already shown the rating prompt for this version</td><td>Device only</td></tr>
+              <tr><td>Widget and Live Activity</td><td>Your streak, when you last claimed a crate, highest cleared level, rank, survivors rescued, best score, the level of a run you left and your language</td><td>Device only, shared between the App and its widget</td></tr>
             </tbody>
           </table>
         </div>
         <p>This data is about the game, not about you, and none of it identifies you. iCloud data is stored by Apple in your private iCloud account, and we can't access it. Apple's handling of iCloud data is described in the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
 
-        <h2><span class="num">04</span>In-app purchases</h2>
+        <h2><span class="num">04</span>Permissions and on-device features</h2>
+        <p>Everything below is optional and works on your device. None of it sends data to us.</p>
+        <ul>
+          <li><strong>Notifications (Radio Alerts).</strong> If you allow them, the App schedules reminders on your device, for example when your daily crate is ready or your streak is about to end. They're local notifications: there's no server and no push token is sent anywhere. Turn them off with <em>Radio Alerts</em> in the game's Settings or in <em>Settings → Notifications</em>.</li>
+          <li><strong>Live Activity.</strong> When you leave a run, the App shows your level on the Lock Screen and in the Dynamic Island. It's created on your device and isn't updated from any server.</li>
+          <li><strong>Photos (add only).</strong> When you save the Gazette front page from the share sheet, iOS asks for permission to add photos. The App can only add that image. It can't see, read or change anything else in your library.</li>
+          <li><strong>Sharing.</strong> The Gazette front page is drawn on your device. When you share it, it goes only where you choose in the iOS share sheet.</li>
+          <li><strong>Widget.</strong> The Grubb's Radio widget reads the data listed in the table above from storage shared on your device.</li>
+        </ul>
+
+        <h2><span class="num">05</span>In-app purchases</h2>
         <p>The App offers optional in-app purchases (gem packs, a Starter Pack and Extra Lives). All payments are processed by Apple through the App Store. We never receive your name, Apple Account, card or other payment details. The App only receives a confirmation from Apple that a purchase went through, so it can give you the item you bought. Purchases are governed by Apple's terms and the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
 
-        <h2><span class="num">05</span>Crash reports and App Store statistics</h2>
+        <h2><span class="num">06</span>Ratings, crash reports and App Store statistics</h2>
         <p>The App contains no analytics or crash-reporting code of its own. If you've chosen to share analytics with app developers in your device settings, Apple may give us anonymous crash reports and aggregated usage statistics, such as the number of installs. This information doesn't identify you and is controlled entirely by you in <em>Settings → Privacy &amp; Security → Analytics &amp; Improvements</em>.</p>
+        <p>From time to time, the App may ask iOS to show Apple's standard rating prompt, at most once per version. Apple decides whether to show it, and any rating or review you leave is handled by Apple. We only see reviews publicly on the App Store, like everyone else.</p>
 
-        <h2><span class="num">06</span>Advertising, tracking and third parties</h2>
+        <h2><span class="num">07</span>Advertising, tracking and third parties</h2>
         <p>The App shows no ads, doesn't track you across other companies' apps or websites, doesn't access your advertising identifier and contains no third-party SDKs. We don't sell, rent, share or trade any information with third parties, because we don't have any information about you to share.</p>
 
-        <h2><span class="num">07</span>Children's privacy</h2>
+        <h2><span class="num">08</span>Children's privacy</h2>
         <p>The App is rated 12+ on the App Store. We don't knowingly collect personal information from anyone, including children under 13 (or under the minimum age in your country). Because the App collects no personal data at all, it's safe for players of any age from a privacy point of view. Any purchases are subject to the parental controls and Ask to Buy settings available on Apple devices.</p>
 
-        <h2><span class="num">08</span>Your choices and deleting your data</h2>
+        <h2><span class="num">09</span>Your choices and deleting your data</h2>
         <ul>
           <li><strong>Stop iCloud sync.</strong> Turn off iCloud for Last Stand in <em>Settings → [your name] → iCloud</em>. Your progress will then be stored on that device only.</li>
           <li><strong>Delete game data from a device.</strong> Delete the App. All data stored on that device is removed together with it.</li>
           <li><strong>Synced data.</strong> Progress synced through iCloud stays in your own iCloud account, which only you control. If you'd like help removing it, contact us.</li>
+          <li><strong>Notifications and photos.</strong> Turn off Radio Alerts in the game's Settings or in <em>Settings → Notifications</em>, and change Photos access in <em>Settings → Privacy &amp; Security → Photos</em>.</li>
           <li><strong>Diagnostics.</strong> Choose whether to share analytics with developers in <em>Settings → Privacy &amp; Security → Analytics &amp; Improvements</em>.</li>
         </ul>
 
-        <h2><span class="num">09</span>Your rights</h2>
+        <h2><span class="num">10</span>Your rights</h2>
         <p>Depending on where you live, laws such as the EU and UK General Data Protection Regulation (GDPR) or the California Consumer Privacy Act (CCPA) give you rights to access, correct, delete or move your personal data, or to object to how it's used. Since we don't collect or hold any personal data about you, we usually have nothing to access, correct or delete. You're still welcome to contact us with any privacy question or request, and we'll respond as soon as we can.</p>
 
-        <h2><span class="num">10</span>Security</h2>
+        <h2><span class="num">11</span>Security</h2>
         <p>Game data is protected by the security of iOS and iPadOS, including app sandboxing and device encryption. Data synced through iCloud is protected by Apple's iCloud security. Because we never receive personal data, none of it can leak from our side.</p>
 
-        <h2><span class="num">11</span>Changes to this policy</h2>
+        <h2><span class="num">12</span>Changes to this policy</h2>
         <p>We may update this Privacy Policy when the App changes or when the law requires it. Any changes will be posted on this page with a new “Last updated” date. If a change affects how your data is handled, we'll describe it in the App Store release notes too.</p>
 
-        <h2><span class="num">12</span>Contact us</h2>
+        <h2><span class="num">13</span>Contact us</h2>
         <p>If you have questions, concerns or feedback about this Privacy Policy or the App, contact us at:</p>
         <p class="callout"><strong>Email:</strong> <a href="mailto:volodymyr.sichka@gmail.com">volodymyr.sichka@gmail.com</a></p>
       </article>

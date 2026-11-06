@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Support – Last Stand: Outbreak</title>
-    <meta name="description" content="Help for Last Stand: Outbreak: controls, upgrades, progress and iCloud sync, in-app purchases, and how to contact the developer." />
+    <meta name="description" content="Help for Last Stand: Outbreak: controls, upgrades, street events, the Gazette, the widget, reminders, language, progress and iCloud sync, in-app purchases, and how to contact the developer." />
     <meta name="theme-color" content="#0d0f14" />
     <meta property="og:title" content="Last Stand: Outbreak – Support" />
     <meta property="og:description" content="Answers to common questions and how to reach the developer." />
     <meta property="og:image" content="https://vybgss.github.io/last-stand-docs/assets/og.jpg" />
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="assets/style.css?v=2" />
   </head>
   <body>
     <header class="site-header">
@@ -110,9 +113,66 @@
           </details>
 
           <details class="plate quiet">
+            <summary>What are street events?</summary>
+            <div class="answer">
+              <p>Once you've cleared your first street, something new happens every minute or so during a run:</p>
+              <ul>
+                <li><strong>Supply drop:</strong> stand in the ring while the crate opens to get scrap, gems and a rare-or-better upgrade.</li>
+                <li><strong>Survivor:</strong> reach the survivor, then walk them to the Bingo Brigade's van before the dead catch up.</li>
+                <li><strong>Hotwire:</strong> stay next to an abandoned pickup until it starts, then drive it through the horde.</li>
+                <li><strong>Blackout:</strong> the lights go out for a while, your torch burns brighter and every kill drops double loot.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="plate quiet">
+            <summary>What is the Sallowmere Gazette, and how do I share it?</summary>
+            <div class="answer">
+              <p>After every run, the town paper prints a front page about it: a headline, a photo from the street, your numbers and your loadout. Tap <span class="key">READ THE GAZETTE</span> on the results screen, then <span class="key">SHARE</span> to send it to friends or save it.</p>
+              <p>If you choose <em>Save Image</em>, iOS asks once for permission to add photos. The game can only add the page to your library. It can't see your photos.</p>
+            </div>
+          </details>
+
+          <details class="plate quiet">
             <summary>Who is on the radio, and can I turn it off?</summary>
             <div class="answer">
               <p>That's General Grubb. He teaches you the controls, comments on the fight and tells the story of the outbreak as you clear new streets. If you'd rather play without him, turn off <span class="key">RADIO BRIEFINGS</span> in Settings.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="block" id="widget">
+        <p class="label">Widget, alerts and language</p>
+        <div class="faq">
+          <details class="plate quiet">
+            <summary>How do I add Grubb's Radio to my Home Screen or Lock Screen?</summary>
+            <div class="answer">
+              <p><strong>Home Screen:</strong> touch and hold an empty area until the icons jiggle, tap <em>Edit</em> → <em>Add Widget</em>, search for Last Stand and pick the small or medium size.</p>
+              <p><strong>Lock Screen:</strong> touch and hold the Lock Screen, tap <em>Customize</em> → <em>Lock Screen</em>, tap the widget area and choose Last Stand.</p>
+              <p>The widget shows the general's line of the day, your daily streak and whether today's supply crate is ready.</p>
+            </div>
+          </details>
+
+          <details class="plate quiet">
+            <summary>Why is my street on the Lock Screen after I leave a run?</summary>
+            <div class="answer">
+              <p>When you leave in the middle of a fight, a Live Activity keeps track of your street on the Lock Screen and in the Dynamic Island, so you can jump straight back in. It goes away as soon as you're back in the game. It comes with Radio Alerts: switching off <span class="key">RADIO ALERTS</span> in Settings turns it off too, or you can switch off just <em>Live Activities</em> for Last Stand in the iOS Settings app.</p>
+            </div>
+          </details>
+
+          <details class="plate quiet">
+            <summary>What are Radio Alerts, and how do I turn them off?</summary>
+            <div class="answer">
+              <p>Radio Alerts are optional reminders from General Grubb when your daily supply crate is ready or your streak is about to end. They never arrive at night. The game asks for permission after the tutorial.</p>
+              <p>Turn them off with <span class="key">RADIO ALERTS</span> in Settings, or in the iOS Settings app under <em>Notifications</em> → <em>Last Stand</em>.</p>
+            </div>
+          </details>
+
+          <details class="plate quiet">
+            <summary>How do I change the language?</summary>
+            <div class="answer">
+              <p>The game speaks English, German, French, Ukrainian, Spanish, Japanese and Portuguese, and follows your device's language. To pick another one, tap <span class="key">LANGUAGE</span> in Settings, or choose Last Stand in the iOS Settings app and change <em>Language</em> there. Both places stay in sync.</p>
             </div>
           </details>
         </div>
@@ -203,7 +263,7 @@
           <details class="plate quiet">
             <summary>Can I turn off the music, sound or vibration?</summary>
             <div class="answer">
-              <p>Yes. Settings has separate switches for <span class="key">MUSIC</span>, <span class="key">SOUND EFFECTS</span> and <span class="key">HAPTICS</span>, and <span class="key">ENEMY HP BARS</span> shows or hides the health bars above the infected.</p>
+              <p>Yes. Settings has separate switches for <span class="key">MUSIC</span>, <span class="key">SOUND EFFECTS</span> and <span class="key">HAPTICS</span>, and <span class="key">ENEMY HP BARS</span> shows or hides the health bars above the infected. <span class="key">RADIO BRIEFINGS</span>, <span class="key">RADIO ALERTS</span> and <span class="key">LANGUAGE</span> are there too.</p>
             </div>
           </details>
 
